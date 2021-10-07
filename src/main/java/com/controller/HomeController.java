@@ -10,4 +10,9 @@ public class HomeController {
     public String test(){
         return "abc@xyz";
     }
+
+    @GetMapping("/")
+    public String test1(){
+        return "XYZ@ABC";
+    }
 }
